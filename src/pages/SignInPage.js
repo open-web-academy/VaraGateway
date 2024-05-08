@@ -48,7 +48,7 @@ export default function SignInPage(props) {
   }, [params.accountId, params.privateKey]);
 
   return (
-    <div className="container-xl" style={{"min-height" : "calc(100vh - 120px)"}}>
+    <div className="container-xl" style={{"min-height" : "calc(100vh - 100px)"}}>
       <div className="row">
         <div
           className="d-inline-block position-relative overflow-hidden"

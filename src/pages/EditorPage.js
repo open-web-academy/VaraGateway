@@ -615,7 +615,7 @@ export default function EditorPage(props) {
     }
     `}
     </style>
-    <div className="container-fluid mt-1" style={{"min-height" : "calc(100vh - 120px)"}}>
+    <div className="container-fluid mt-1" style={{"min-height" : "calc(100vh - 100px)"}}>
       <RenameModal
         key={`rename-modal-${jpath}`}
         show={showRenameModal}

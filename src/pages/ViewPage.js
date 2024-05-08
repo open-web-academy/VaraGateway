@@ -49,7 +49,7 @@ export default function ViewPage(props) {
   }, [src, query, setWidgetSrc, viewSourceWidget]);
 
   return showMenu ? (
-    <div className="container-xl" style={{"min-height" : "calc(100vh - 120px)"}}>
+    <div className="container-xl" style={{"min-height" : "calc(100vh - 100px)"}}>
       <div className="row">
         <div
           className="position-relative"

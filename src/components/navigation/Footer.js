@@ -2,13 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledFooter = styled.footer`
-width: 100%;
-display: grid;
-background-color: var(--green-vara-1);
-padding: 20px 0 20px 0;
-margin: 0px;
-text-align: center;
+height: 42px;
+display: flex;
+justify-content: center;
+align-items: center;
 font-weight: 700;
+background-color: var(--green-vara-1);
 `
 
 
